@@ -25,7 +25,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 script {
-                    clone("https://github.com/Satyams-git/Qualibytes-Ecommerce.git", "dev")
+                    clone("https://github.com/rajan9650/Qualibytes-Ecommerce.git", "dev")
                 }
             }
         }
