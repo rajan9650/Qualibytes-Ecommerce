@@ -25,6 +25,9 @@ spec:
             - secretRef:
                 name: qbshop-secrets
           env:
+            - name: HOSTNAME
+              value: "0.0.0.0"
+
             - name: NEXTAUTH_URL
               valueFrom:
                 configMapKeyRef:
